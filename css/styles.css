@@ -1,8 +1,64 @@
 #header_h1 {
-  color: red;
+  color: #f64c72;
 }
 
 .home_article {
-  background-color: lightgray;
+  background-color: #f64c72;
   padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #2f2fa2;
+  margin: 10px;
+}
+
+footer {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+/* Mid to large screen break point based on Bootstrap break ponts */
+@media screen and (max-width: 992px) {
+  #header_h1 {
+    font-size: 40px;
+  }
+  *.home_article {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 20px;
+  }
+}
+
+/* Mid to small screen break point based on Bootstrap break points */
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+/* Small screen break point based on Bootstrap break points */
+@media screen and (max-width: 576px) {
+  #header_h1 {
+    font-size: 45px;
+  }
+  *.home_article {
+    font-size: 25px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 25px;
+  }
 }
