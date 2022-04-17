@@ -1,0 +1,85 @@
+body {
+  background-color: #5596e6;
+  margin: 10px;
+}
+
+#header_h1 {
+  color: #ffffff;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  background-color: #41d6c3;
+  transition: all 250ms ease-in;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  background-color: #3d70b2;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0px 10px 0px;
+}
+
+.home_article {
+  background-color: #41d6c3;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  color: white;
+}
+
+/* Mid to large screen break point based on Bootstrap break ponts */
+@media screen and (max-width: 992px) {
+  #header_h1 {
+    font-size: 40px;
+  }
+  *.home_article {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 20px;
+  }
+}
+
+/* Mid to small screen break point based on Bootstrap break points */
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+/* Small screen break point based on Bootstrap break points */
+@media screen and (max-width: 576px) {
+  #header_h1 {
+    font-size: 45px;
+  }
+  *.home_article {
+    font-size: 25px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 25px;
+  }
+}
