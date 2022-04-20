@@ -5,6 +5,7 @@ body {
 
 #header_h1 {
   color: #ffffff;
+  font-family: "Roboto", sans-serif Bold;
 }
 
 a {
@@ -32,12 +33,20 @@ a {
   padding: 10px 0px 10px 0px;
 }
 
+.header-article {
+  font-family: "Roboto", sans-serif;
+}
+
 .home_article {
   background-color: #41d6c3;
   padding: 10px;
   color: white;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
 }
 
 footer {
