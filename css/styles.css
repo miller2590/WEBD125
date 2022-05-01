@@ -33,6 +33,12 @@ a {
   padding: 10px 0px 10px 0px;
 }
 
+.main-img {
+  height: auto;
+  max-width: 900px;
+  width: 100%;
+}
+
 .header-article {
   font-family: "Roboto", sans-serif;
 }
@@ -71,9 +77,18 @@ footer {
   body {
     text-align: center;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   ul {
     list-style: none;
     font-size: 20px;
+  }
+  .nav-items {
+    justify-content: center;
   }
 }
 
@@ -82,11 +97,18 @@ footer {
   #header_h1 {
     font-size: 45px;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   *.home_article {
     font-size: 25px;
   }
   ul {
-    font-size: 20px;
+    font-size: 1rem;
+    flex-wrap: wrap;
   }
   footer p {
     font-size: 25px;
